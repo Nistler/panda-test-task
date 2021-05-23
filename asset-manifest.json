@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/panda-test-task/static/css/main.f0b4f661.chunk.css",
+    "main.css": "/panda-test-task/static/css/main.8ca7b1a7.chunk.css",
     "main.js": "/panda-test-task/static/js/main.922662f4.chunk.js",
     "main.js.map": "/panda-test-task/static/js/main.922662f4.chunk.js.map",
     "runtime-main.js": "/panda-test-task/static/js/runtime-main.a03a1bbc.js",
@@ -8,13 +8,13 @@
     "static/js/2.b6d2fea2.chunk.js": "/panda-test-task/static/js/2.b6d2fea2.chunk.js",
     "static/js/2.b6d2fea2.chunk.js.map": "/panda-test-task/static/js/2.b6d2fea2.chunk.js.map",
     "index.html": "/panda-test-task/index.html",
-    "static/css/main.f0b4f661.chunk.css.map": "/panda-test-task/static/css/main.f0b4f661.chunk.css.map",
+    "static/css/main.8ca7b1a7.chunk.css.map": "/panda-test-task/static/css/main.8ca7b1a7.chunk.css.map",
     "static/js/2.b6d2fea2.chunk.js.LICENSE.txt": "/panda-test-task/static/js/2.b6d2fea2.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.a03a1bbc.js",
     "static/js/2.b6d2fea2.chunk.js",
-    "static/css/main.f0b4f661.chunk.css",
+    "static/css/main.8ca7b1a7.chunk.css",
     "static/js/main.922662f4.chunk.js"
   ]
 }
