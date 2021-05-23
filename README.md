@@ -1,7 +1,11 @@
 # Crazy Panda test task
 A simple table with filtration, sorting, and pagination.
 
+## 🔴 Live demo:
 
+### https://nistler.github.io/panda-test-task/
+
+![demo gif](https://github.com/Nistler/panda-test-task/blob/main/demo.gif?raw=true "Currency converter demo")
 
 Необходимо разработать javascript-компонент для построения таблицы с дополнительными возможностями для пользователя.
 
