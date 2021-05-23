@@ -22,7 +22,7 @@ const App = () => {
   const setPagination = (data) => {
     const numberOfPages = Math.floor(data.length / 50);
     let maxPages = data.length % 50 > 0 ? numberOfPages + 1 : numberOfPages;
-    updatePagination({ ...pagination, maxPages, list: chunk(data, 50) });
+    updatePagination({ activePage: 1, maxPages, list: chunk(data, 50) });
   };
 
   useEffect(() => {
