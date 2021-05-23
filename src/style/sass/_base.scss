@@ -1,0 +1,12 @@
+$grey: #efefef;
+$darkGrey: #676767;
+$light: #f1f1f1;
+
+@mixin scale {
+  @media (min-width: 900px) {
+    zoom: 1.2;
+  }
+  @media (min-width: 1900px) {
+    zoom: 1.5;
+  }
+}

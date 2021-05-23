@@ -1,0 +1,62 @@
+@import "base";
+
+body {
+  overflow-y: scroll;
+  @include scale;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0;
+}
+
+table {
+  width: 350px;
+  padding: 10px;
+  border-collapse: collapse;
+}
+
+td {
+  padding: 8px;
+}
+
+#sort-by-first-name {
+  width: 82px;
+}
+
+#sort-by-last-name {
+  width: 95px;
+}
+
+thead {
+  text-align: center;
+  color: $light;
+  border: 1px solid #ffffff;
+  td:hover {
+    cursor: pointer;
+    user-select: none;
+  }
+  tr {
+    background-color: $darkGrey;
+  }
+}
+
+tbody {
+  tr {
+    border-top: 1px solid #ddd;
+    &:nth-child(2n) {
+      background-color: $grey;
+    }
+  }
+}
+
+.filter {
+  margin: 15px;
+  width: 340px;
+}
+
+.nav-container {
+  margin: 15px;
+}

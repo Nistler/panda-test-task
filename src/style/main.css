@@ -1,0 +1,83 @@
+.nav-btn {
+  cursor: pointer;
+  margin: 0 5px;
+  border: none;
+  background: white;
+  color: #676767;
+  font-size: 1.2rem;
+}
+
+.active {
+  color: black;
+  border-bottom: 1px solid #676767;
+}
+
+body {
+  overflow-y: scroll;
+}
+@media (min-width: 900px) {
+  body {
+    zoom: 1.2;
+  }
+}
+@media (min-width: 1900px) {
+  body {
+    zoom: 1.5;
+  }
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0;
+}
+
+table {
+  width: 350px;
+  padding: 10px;
+  border-collapse: collapse;
+}
+
+td {
+  padding: 8px;
+}
+
+#sort-by-first-name {
+  width: 82px;
+}
+
+#sort-by-last-name {
+  width: 95px;
+}
+
+thead {
+  text-align: center;
+  color: #f1f1f1;
+  border: 1px solid #ffffff;
+}
+thead td:hover {
+  cursor: pointer;
+  user-select: none;
+}
+thead tr {
+  background-color: #676767;
+}
+
+tbody tr {
+  border-top: 1px solid #ddd;
+}
+tbody tr:nth-child(2n) {
+  background-color: #efefef;
+}
+
+.filter {
+  margin: 15px;
+  width: 340px;
+}
+
+.nav-container {
+  margin: 15px;
+}
+
+/*# sourceMappingURL=main.css.map */
